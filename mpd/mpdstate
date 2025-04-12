@@ -1,16 +1,54 @@
-sw_volume: 100
-audio_device_state:1:pulse audio
-audio_device_state:1:my_fifo
+sw_volume: 80
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:Visualizer feed
 state: play
-current: 0
-time: 120.252000
+current: 37
+time: 99.102
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
-crossfade: 5
-mixrampdb: 0.000000
-mixrampdelay: -1.000000
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
 playlist_begin
-0:creepy-nuts-bling-bang-bang-born.mp3
+0:Ed Sheeran - Eraser.flac
+1:P$C - Do Ya Thing (feat. Young Dro explicit album version).flac
+2:Linkin Park - Waiting for the End.flac
+3:Piyush Mishra - Aaja Nachle.flac
+4:Lady Gaga - Applause.flac
+5:Nelly - Just A Dream (Main).flac
+6:01_Send_It_On_feat_Demi_Lovato,_Jonas_Brothers,_Hannah_Montana_&.m4a
+7:Backstreet Boys - I Want It That Way.flac
+8:Creepy Nuts - Bling-Bang-Bang-Born.flac
+9:Justin Bieber - Boyfriend (Album Version).flac
+10:Arijit Singh - Main Tera Boyfriend (From _Raabta_).flac
+11:Katy Perry - Harleys In Hawaii.flac
+12:Arbovirus - School.flac
+13:Zack Knight - Bom Diggy.flac
+14:Jennifer Lopez - On The Floor (Album Version).flac
+15:Freshlyground - Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground) (Single).flac
+16:Akon - Chammak Challo (From _Ra-One_).flac
+17:Usher - Yeah!.flac
+18:Avril Lavigne - What the Hell.flac
+19:Michael Learns To Rock - Complicated Heart.flac
+20:Katy Perry - Roar.flac
+21:JoJo - Too Little Too Late.flac
+22:Beartooth - In Between.flac
+23:Dua Lipa - Last Dance.flac
+24:Akon - Beautiful.flac
+25:No Resolve - Get Me Out.flac
+26:Coldplay - A Sky Full of Stars.flac
+27:Vishal Dadlani - I Hate Luv Storys.flac
+28:The Corrs - Breathless (LP Version).flac
+29:Tesher - Jalebi Baby.flac
+30:Shayne Ward - Breathless.flac
+31:Michael Learns To Rock - Blue Night (2014 Remaster).flac
+32:Skillet - Awake and Alive.flac
+33:Anne-Marie - 2002.flac
+34:Arekta Rock Band - Chaap.flac
+35:Sum 41 - Pieces.flac
+36:Arekta Rock Band - Eden.flac
+37:Bassbaba Sumon - Gaibona.flac
 playlist_end
