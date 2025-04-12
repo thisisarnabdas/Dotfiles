@@ -1,0 +1,37 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+fastfetch
+. "$HOME/.cargo/env"
+
+#yt-x
+export YT_X_FZF_OPTS="$FZF_DEFAULT_OPTS
+--color=fg:#e0def4,fg+:#e0def4,bg:-1,bg+:#44415a
+--color=hl:#3e8fb0,hl+:#9ccfd8,info:#f6c177,marker:#3e8fb0
+--color=prompt:#eb6f92,spinner:#c4a7e7,pointer:#c4a7e7,header:#3e8fb0
+--color=border:#44415a,label:#ea9a97,query:#f6c177
+--border=\"rounded\" --border-label=\"\" --preview-window=\"border-rounded\" --prompt=\"> \"
+--marker=\">\" --pointer=\"◆\" --separator=\"─\" --scrollbar=\"│\""
+
